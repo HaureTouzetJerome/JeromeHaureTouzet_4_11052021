@@ -92,6 +92,10 @@ a:hover {
     right: 0;
 }
 
+.btn-send:focus-within {
+    border: 2px solid black;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
